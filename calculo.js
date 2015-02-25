@@ -27,14 +27,6 @@ function capturar(num){
 	document.getElementById("valores").value=anterior+num;
 }
 
-//Eliminar caracter
-
-function eliminar(){
-
-	var anterior=document.fo.valores.value;
-	var nuevovalor=anterior.substring(0,anterior.length-1);
-	document.getElementById("valores").value=nuevovalor;
-}
 
 //Eliminar todo (C)
 
@@ -94,3 +86,12 @@ function calcular(){
 	var resultado=eval(document.fo.valores.value);
 	document.fo.valores.value=resultado;
 }
+
+
+// Seno
+
+// Coseno
+
+// Tangente
+
+// Raiz
