@@ -90,8 +90,46 @@ function calcular(){
 
 // Seno
 
-// Coseno
+   function seno(){
+
+ 	numeros= document.getElementById("valores").value;
+      resultado=Math.sin(numeros)
+      document.fo.valores.value=resultado;
+ 	
+ }
+
+// coseno
+
+      function coseno(){
+
+ 	numeros= document.getElementById("valores").value;
+      resultado=Math.cos(numeros);
+      document.fo.valores.value=resultado;
+	  }
 
 // Tangente
 
+   function tangente(){
+
+ 	numeros= document.getElementById("valores").value;
+      resultado=Math.tan(numeros);
+      document.fo.valores.value=resultado;
+	  
+   }
+
 // Raiz
+
+   function raiz(){
+
+ 	numeros= document.getElementById("valores").value;
+      resultado=Math.sqrt(numeros);
+      document.fo.valores.value=resultado;
+   }
+   
+     function expo(){
+
+ 	numeros= document.getElementById("valores").value;
+      resultado=numeros*numeros;
+      document.fo.valores.value=resultado;
+	 
+   }
